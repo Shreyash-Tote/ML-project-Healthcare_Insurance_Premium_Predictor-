@@ -3,8 +3,8 @@ import pandas as pd
 import os
 import joblib
 
-# Get the base directory of the project (two folders up from this file)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Get the base directory of the project (one folder up from this file)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Path to the artifacts directory
 artifact_path = os.path.join(BASE_DIR, "artifacts")
